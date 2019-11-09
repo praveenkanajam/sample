@@ -1,7 +1,10 @@
 shell scripting topics
     
     she-bang
-    
+        to determine the path of the interpretor.
+        it has be very first line
+        #!/bin/bash
+        
     comments
     
     print
