@@ -33,6 +33,10 @@ remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 
+[root@ip-172-31-84-217 ~]# ls
+sample
+[root@ip-172-31-84-217 ~]# ls sample/
+script1.sh
 ...
 
 
