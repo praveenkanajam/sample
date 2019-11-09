@@ -35,6 +35,7 @@ Unpacking objects: 100% (3/3), done.
 
 [root@ip-172-31-84-217 ~]# ls
 sample
+
 [root@ip-172-31-84-217 ~]# ls sample/
 script1.sh
 
