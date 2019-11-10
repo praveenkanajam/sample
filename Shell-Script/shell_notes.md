@@ -33,6 +33,13 @@ shell scripting topics
     # ./02-print.sh
     hellow world
     Hellow
+    -------------
+    If we want to print in multile lines. we need to use the escape sequence.
+
+    echo line 1\nline 2
+     
+    ## \n is an excape sequence which prints new lines.
+    
     ---------------
     Alias:
     alias G='git pull'
