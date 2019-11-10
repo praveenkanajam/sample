@@ -27,9 +27,9 @@ echo -e "India\tTelangana\tHyderabad"
 #MAGNETA            35              45
 #CYAN               36              46
 
-echo -e"\e[31mRED"
-echo -e"\e[32mGREEN"
-echo -e"\e[33mYELLOW]
-echo -e"\e[34mYELLOW]
-echo -e"\e[35mMAGNETA]
-echo -e"\e[36mCYAN]
+echo -e "\e[31mRED"
+echo -e "\e[32mGREEN"
+echo -e "\e[33mYELLOW"
+echo -e "\e[34mYELLOW"
+echo -e "\e[35mMAGNETA"
+echo -e "\e[36mCYAN"
