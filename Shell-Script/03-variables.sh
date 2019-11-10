@@ -12,3 +12,5 @@
 
 a=10
 echo a = $a
+b=30
+echo b = $b
