@@ -4,3 +4,9 @@
 
 echo hellow world
 printf Hellow WOrld
+
+## to print a message on multiple lines
+#:  in the below \n is escape sequence which prints new lines.
+echo line 1\nline 2 
+
+
