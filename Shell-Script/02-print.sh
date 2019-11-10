@@ -33,3 +33,7 @@ echo -e "\e[33m\t\tYELLOW"
 echo -e "\e[34m\t\t\tBLUE"
 echo -e "\e[35m\t\t\t\tMAGNETA"
 echo -e "\e[36m\t\t\t\t\tCYAN"
+
+## colours always follows we have enable but not disabled. 
+## To disable the colour use 0(zero) in the place of colour
+echo -e "\e[36m Colour start \e[0m colour end"
