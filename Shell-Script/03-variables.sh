@@ -36,7 +36,7 @@ echo block 4:
 ## to get the date dynamically when the script is executed we need to use command substitution.
 ## syntax : VARIABLE=$(COMMAND) OR VAR=`COMMAND`
 
-Dynamic_DATE=$(date +%F)
+Dynamic_Date=$(date +%F)
 Dynamic_time=$(date +%T)
 echo "dynamic date is $Dynamic_Date"
 echo "dynamic date and time is $Dynamic_time"
