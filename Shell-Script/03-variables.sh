@@ -26,3 +26,8 @@ d=*
 echo d = $d
 
 ## for block 3 output shown as list of all files in this folder as similar to ls command
+
+echo block 4:
+static_date=10-11-2019
+echo $static_date
+
