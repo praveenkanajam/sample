@@ -20,3 +20,8 @@ echo block 2:
 c=*.sh
 echo c = $c
 
+## for block 2 output shown as list of files wit the extension .sh as command ls
+
+echo block 3:
+d=*
+echo d = $d
