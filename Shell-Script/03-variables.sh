@@ -29,5 +29,5 @@ echo d = $d
 
 echo block 4:
 static_date=10-11-2019
-echo $static_date
+echo "Today date is $static_date, but this will show the same date in tomarrow also"
 
