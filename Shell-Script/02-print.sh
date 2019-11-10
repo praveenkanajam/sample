@@ -28,8 +28,8 @@ echo -e "India\tTelangana\tHyderabad"
 #CYAN               36              46
 
 echo -e "\e[31mRED"
-echo -e "\e[32mGREEN"
-echo -e "\e[33mYELLOW"
-echo -e "\e[34mYELLOW"
-echo -e "\e[35mMAGNETA"
-echo -e "\e[36mCYAN"
+echo -e "\e[32m\tGREEN"
+echo -e "\e[33m\t\tYELLOW"
+echo -e "\e[34m\t\t\tBLUE"
+echo -e "\e[35m\t\t\t\tMAGNETA"
+echo -e "\e[36m\t\t\t\t\tCYAN"
