@@ -1,9 +1,18 @@
 shell scripting topics
     
-    she-bang
+    she-bang::
+        
         to determine the path of the interpretor.
-        it has be very first line
+        
+        it has be very first line, starts with #!/path of interpretor
+        
         #!/bin/bash
+        ----------------------------------------------------------------
+        from the second line # treats as comment
+        
+        line 1 #!/bin/bash # interpretor
+        line 2 # comment  # comment
+        
         
     comments
     
