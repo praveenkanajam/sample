@@ -1,5 +1,5 @@
-#!/bin/python
-print("File in Present working directory")
+#!/bin/bash
+echo "File in Present working directory"
 ls
 
 
