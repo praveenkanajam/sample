@@ -29,5 +29,5 @@ echo d = $d
 
 echo block 4:
 static_date=10-11-2019
-echo "Today date is $static_date, but this will show the same date in tomarrow also"
+echo "Today date is $static_date, but this will show the same date in tomarrow also.\n due to this we had declred date as string, it will not change automatically"
 
