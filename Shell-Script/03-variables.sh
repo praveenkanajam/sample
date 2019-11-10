@@ -9,8 +9,14 @@
 ## a=abc, not a character, but it is string.
 
 ## when your data having some special characters then provide input in quotes.. Double is preferred
-
+echo block1:
 a=10
 echo a = $a
 b=30
 echo b = $b
+
+echo block2:
+
+c=*.sh
+echo c=$c
+
