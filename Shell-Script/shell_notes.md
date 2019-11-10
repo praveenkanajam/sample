@@ -33,6 +33,15 @@ shell scripting topics
     # ./02-print.sh
     hellow world
     Hellow
+    ---------------
+    Alias:
+    alias G='git pull'
+    or 
+    alias G="git pull"
+
+    To remove the alias:
+    unalias G
+
 
     ----------
     variales
@@ -46,6 +55,7 @@ shell scripting topics
         -- Read Command
     
         -- Special Variable
+    
     
     Redirectors
     
