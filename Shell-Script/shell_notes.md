@@ -40,6 +40,7 @@ shell scripting topics
      
     ## \n is an excape sequence which prints new lines.
     #    to enable escape sequence we need to use the an option -e to echo command
+    #    when you enable the escape sequences in echo command, always provide input in double quotes.
     
     echo -e "Hellow\nWorld"
     ---------------
