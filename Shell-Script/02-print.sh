@@ -36,4 +36,4 @@ echo -e "\e[36m\t\t\t\t\tCYAN"
 
 ## colours always follows we have enable but not disabled. 
 ## To disable the colour use 0(zero) in the place of colour
-echo -e "\e[36m Colour start \e[0m colour end"
+echo -e "\e[31m Colour start \e[0m colour end"
