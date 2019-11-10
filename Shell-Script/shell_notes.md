@@ -22,7 +22,7 @@ shell scripting topics
     INput:
     #!/bin/bash
 
-    ## to print a message on the screen we user printf comand or echo command
+    ## to print a message on the screen we user printf command or echo command
 
     echo hellow world
     
