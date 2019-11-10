@@ -39,7 +39,9 @@ shell scripting topics
     echo line 1\nline 2
      
     ## \n is an excape sequence which prints new lines.
+    #    to enable escape sequence we need to use the an option -e to echo command
     
+    echo -e "Hellow\nWorld"
     ---------------
     Alias:
     alias G='git pull'
