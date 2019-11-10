@@ -16,8 +16,25 @@ shell scripting topics
         
     comments
     
-    print
+    print:
     
+    ----------
+    INput:
+    #!/bin/bash
+
+    ## to print a message on the screen we user printf comand or echo command
+
+    echo hellow world
+    
+    printf Hellow WOrld
+    --------------
+
+    Output:
+    # ./02-print.sh
+    hellow world
+    Hellow
+
+    ----------
     variales
     
         -- Command Subsititution
