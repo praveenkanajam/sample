@@ -40,3 +40,10 @@ Dynamic_Date=$(date +%F)
 Dynamic_time=$(date +%T)
 echo "dynamic date is $Dynamic_Date"
 echo "dynamic date and time is $Dynamic_time"
+
+echo block 5: 
+echo access a varilable from cli, by default is will not work, we need to export 
+echo using the syntax # export variable=variable name, then it will work in script also.
+echo hear i am exporting the varilabe, ex : # export country=INDIA, in the below i am calling the variable
+
+echo -e "\e[32m\t\tCountry is : $country\e[0m"
