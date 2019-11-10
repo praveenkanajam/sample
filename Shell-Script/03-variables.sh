@@ -29,5 +29,14 @@ echo d = $d
 
 echo block 4:
 static_date=10-11-2019
-echo -e "Today date is $static_date, but this will show the same date in tomarrow also.\nDue to this we had declred date as string, it will not change automatically"
+echo -e "Today date is $static_date, but this will show the same date in tomarrow also.\nDue to this we had declared date as string, it will not change automatically"
 
+echo block 4:
+
+## to get the date dynamically when the script is executed we need to use command substitution.
+## syntax : VARIABLE=$(COMMAND) OR VAR=`COMMAND`
+
+Dynamic_DATE=$(date +%F)
+Dynamic_time=$(date +%T)
+echo "dynamic date is $Dynamic_Date"
+echo "dynamic date and time is $Dynamic_time"
