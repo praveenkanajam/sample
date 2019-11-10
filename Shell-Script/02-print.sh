@@ -4,6 +4,6 @@ echo hellow world
 
 ## to print a message on multiple lines
 #:  in the below \n is escape sequence which prints new lines.
-echo Hellow\nWorld 
+echo -e "Hellow\nWorld" 
 
 
