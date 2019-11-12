@@ -55,6 +55,7 @@ for putty we need to do small change .we need to convert the devops file in putt
 
 1.open puttygen:
 load --> select devops file --> save private file -> yes --> save file as devops-putty.
+https://github.com/praveenkanajam/sample/blob/master/Ansible/import_keypair.PNG
 
 2.open putty:
 provide ip--> connection-->ssh-->auth--> brouse --> devops-putty-->username: ec2-user
