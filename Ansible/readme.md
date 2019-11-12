@@ -55,10 +55,63 @@ for putty we need to do small change .we need to convert the devops file in putt
 
 1.open puttygen:
 load --> select devops file --> save private file -> yes --> save file as devops-putty.
-https://github.com/praveenkanajam/sample/blob/master/Ansible/import_keypair.PNG
 
 2.open putty:
 provide ip--> connection-->ssh-->auth--> brouse --> devops-putty-->username: ec2-user
 
 -------------
 Ansible Installation ( Different Ways)
+
+    1.Yum. 
+    2.Python Module.
+    3.Source Compilation.
+
+    1.yum: 
+    yum install ansible* -y
+    2. Python Module:
+    Go to https://github.com/ansible/ansible/releases 
+    yum install python2-pip -y
+    
+    pip search ansible
+    pip install ansible
+    ansible --version
+------------
+in workstation. copied the pem and pub fies in centos home dir.
+created hosts file which will used as inventory.
+3.83.158.123
+18.206.249.34
+
+ansible -i  hosts all --private-key devops.pem -u centos -m ping
+3.83.158.123 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+18.206.249.34 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+
+[centos@ip-172-31-90-171 ~]$ ansible -i  hosts all --private-key devops.pem -u centos -m shell -a
+uptime
+18.206.249.34 | CHANGED | rc=0 >>
+ 13:54:48 up 28 min,  2 users,  load average: 0.00, 0.01, 0.01
+
+3.83.158.123 | CHANGED | rc=0 >>
+ 13:54:49 up 26 min,  1 user,  load average: 0.00, 0.01, 0.01
+
+ [centos@ip-172-31-90-171 ~]$ ls .ansible/
+cp  tmp
+[centos@ip-172-31-90-171 ~]$ ls .ssh/
+authorized_keys  known_hosts
+[centos@ip-172-31-90-171 ~]$ cat .ssh/known_hosts
+18.206.249.34 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBD7KL70buMtNQEdKyMbGtTAI2m6k8TlB84fEirEFlZGsBOGMnWBd1DvvQj6usYYxC8qhg93TjwqSJCfYR32WROM=
+3.83.158.123 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBD7KL70buMtNQEdKyMbGtTAI2m6k8TlB84fEirEFlZGsBOGMnWBd1DvvQj6usYYxC8qhg93TjwqSJCfYR32WROM=
+
+dd
+
