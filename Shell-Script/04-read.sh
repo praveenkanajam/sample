@@ -9,4 +9,4 @@ echo $name1
 read -p "Enter your name 2" name2
 echo "Name entered is $name2" 
 
-read -p 
+read -p  dd
