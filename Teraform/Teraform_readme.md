@@ -23,3 +23,10 @@ Note: after giving the above command it will show the provider version details o
 lock.json  terraform-provider-aws_v2.35.0_x4  terraform-provider-mysql_v1.9.0_x4
 
 8. terraform init command will validate the syntax also.
+
+9. Create new folder with the name of 02-Resources and create a file ec2.tf
+    resource "aws_instance" "web" 
+{
+  ami           = "ami-02383135f96b2293e"
+  instance_type = "t2.micro"
+}
