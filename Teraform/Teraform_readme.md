@@ -17,3 +17,9 @@ installation:
 Note: after giving the above command it will show the provider version details of aws and mysql
     * provider.aws: version = "~> 2.35"
     * provider.mysql: version = "~> 1.9"
+
+7. we can view the plugins in the below folder.
+[root@ip-172-31-88-97 Teraform]# ls .terraform/plugins/linux_amd64/
+lock.json  terraform-provider-aws_v2.35.0_x4  terraform-provider-mysql_v1.9.0_x4
+
+8. terraform init command will validate the syntax also.
