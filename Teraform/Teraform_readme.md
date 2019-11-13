@@ -30,3 +30,4 @@ lock.json  terraform-provider-aws_v2.35.0_x4  terraform-provider-mysql_v1.9.0_x4
   ami           = "ami-02383135f96b2293e"
   instance_type = "t2.micro"
 }
+10. use the below plan command.
