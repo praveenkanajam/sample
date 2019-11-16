@@ -18,7 +18,7 @@ resource "aws_instance" "web"{
       "git clone https://praveenkanajam:Tf@github.com/praveenkanajam/sample.git",
       "sh /tmp/sample/Shell-Script/studentapp/install.sh",
       "sleep 10"
-      "echo -e '\e[31m Unmout the git Clone\e[310'",
+      "echo -e Unmout the git Clone",
           ]
   }
 }
