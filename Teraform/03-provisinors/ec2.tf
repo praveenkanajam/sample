@@ -22,7 +22,7 @@ resource "aws_instance" "web"{
       "rm -rf /tmp/sample",
       "echo exit status $?",
       "echo ipaddress:",
-      "ifconfig eth0|grep inet|head -1|awk '{print $2}'",
+      "curl http://checkip.amazonaws.com",
           ]
   }
 }
