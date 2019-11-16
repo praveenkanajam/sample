@@ -9,8 +9,9 @@ resource "aws_instance" "web"{
       host     = self.public_ip
     }
     inline = [
-      "cd /tmp"
-      "git clone https://gitlab.com/dops42/shell-scripts.git"
+      "cd /tmp",
+      "git clone https://github.com/praveenkanajam/sample.git",
+      "sh /tmp/sample/shell-scripts-master/studentapp/install.sh",
       "puppet apply",
       "consul join ${aws_instance.web.private_ip}",
     ]
