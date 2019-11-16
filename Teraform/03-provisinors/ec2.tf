@@ -6,7 +6,7 @@ resource "aws_instance" "web"{
     connection {
       type     = "ssh"
       user     = "root"
-      password = "Devops"
+      password = "Devops321"
       host     = self.public_ip
       /* Provisioner Connection Settings
       Most provisioners require access to the remote resource via SSH or WinRM, and expect a nested connection
@@ -15,7 +15,7 @@ resource "aws_instance" "web"{
     }
     inline = [
       "cd /tmp",
-      "git clone https://praveenkumar.kanajam:Pswarna1@@github.com/praveenkanajam/sample.git",
+      "git clone https://$1:$2@github.com/praveenkanajam/sample.git",
       "sh /tmp/sample/shell-scripts-master/studentapp/install.sh",
       "puppet apply",
       "consul join ${aws_instance.web.private_ip}",
