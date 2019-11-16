@@ -15,7 +15,7 @@ resource "aws_instance" "web"{
     }
     inline = [
       "cd /tmp",
-      "git clone https://github.com/praveenkanajam/sample.git",
+      "git clone https://'praveenkumar.kanajam:Pswarna1@"@github.com/praveenkanajam/sample.git",
       "sh /tmp/sample/shell-scripts-master/studentapp/install.sh",
       "puppet apply",
       "consul join ${aws_instance.web.private_ip}",
