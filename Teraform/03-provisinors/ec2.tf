@@ -19,6 +19,8 @@ resource "aws_instance" "web"{
       "sh /tmp/sample/Shell-Script/studentapp/install.sh",
       "sleep 10",
       "echo Unmout the git Clone",
+      "rm -rf /tmp/sample",
+      "echo exit status $?",
           ]
   }
 }
