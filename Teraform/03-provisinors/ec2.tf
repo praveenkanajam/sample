@@ -21,8 +21,8 @@ resource "aws_instance" "web"{
       "echo Unmout the git Clone",
       "rm -rf /tmp/sample",
       "echo exit status $?",
-      "echo ipaddress:"
-      "ifconfig eth0|grep inet|head -1",
+      "echo ipaddress:",
+      "ifconfig eth0|grep inet|head -1|awk '{print $2}'",
           ]
   }
 }
