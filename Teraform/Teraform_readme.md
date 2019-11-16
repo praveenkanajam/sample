@@ -102,5 +102,5 @@ The local-exec provisioner invokes a local executable after a resource is create
 Note that even though the resource will be fully created when the provisioner is run, there is no guarantee that it will be in an operable state - for example system services such as sshd may not be started yet on compute resources.
 
 Now the task is after instance creation, we need to execute the shell script.
-
+Hear please refer the 03-providers/ec2.tf file with the auto script.
 
