@@ -17,8 +17,6 @@ resource "aws_instance" "web"{
       "cd /tmp",
       "git clone https://praveenkumar.kanajam@gmail.com:Pswarna1@@github.com/praveenkanajam/sample.git",
       "sh /tmp/sample/shell-scripts-master/studentapp/install.sh",
-      "puppet apply",
-      "consul join ${aws_instance.web.private_ip}",
-    ]
+          ]
   }
 }
