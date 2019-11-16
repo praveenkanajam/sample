@@ -16,7 +16,7 @@ resource "aws_instance" "web"{
     inline = [
       "cd /tmp",
       "git clone https://praveenkanajam:Tecra321@github.com/praveenkanajam/sample.git",
-      "sh /tmp/sample/shell-scripts-master/studentapp/install.sh",
+      "sh /tmp/sample/Shell-Script/studentapp/install.sh",
           ]
   }
 }
