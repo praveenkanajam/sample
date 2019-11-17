@@ -1,5 +1,5 @@
 variable "course" {
-  default = Devops
+  default = "Devops"
 }
 resource "null_resource" "course" {
 provisioner "local-exec" {
