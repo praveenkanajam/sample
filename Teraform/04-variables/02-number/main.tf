@@ -1,5 +1,5 @@
 variable "name" {
-  default = "1"
+  default = "1000000"
 }
 
 resource "null_resource" "local" {
