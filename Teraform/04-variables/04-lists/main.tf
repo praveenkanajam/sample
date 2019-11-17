@@ -1,5 +1,6 @@
 variable "lists" {
-  default = "apple mango goa grapes sapota"
+  type = "list"
+  default = ["apple","mango"]
 }
 
 resource "null_resource" "name" {
