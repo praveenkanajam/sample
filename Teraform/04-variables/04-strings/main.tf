@@ -3,6 +3,6 @@ variable "name" {
 }
 resource "null_resource" "name" {
   provisioner "local-exec" {
-    command = "echo Hai ${var.name}}, How are u ..?"
+    command = "echo Hai ${var.name}, How are u ..?"
   }
 }
