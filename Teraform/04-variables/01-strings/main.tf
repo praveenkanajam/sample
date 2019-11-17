@@ -1,10 +1,10 @@
 variable "sample" {
-  default = "Hellow world"
+  default = "Hellow world.."
 }
 
 resource "null_resource" "sample" {
   provisioner "local-exec" {
-    command = "echo ${var.sample1}"
+    command = "echo ${var.sample}"
 
   }
 }
