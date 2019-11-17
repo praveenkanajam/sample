@@ -5,4 +5,3 @@ resource "aws_instance" "web" {
   tags = {
     Name = "TesM1"
   }
-}
