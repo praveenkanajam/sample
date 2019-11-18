@@ -4,6 +4,6 @@ variable "lists" {
 }
 resource "null_resource" "name" {
   provisioner "local-exec" {
-    command = "echo ${var.lists[0]},${var.lists[1]},${var.lists[4]}}"
+    command = "echo ${var.lists[0]},${var.lists[1]},${var.lists[4]}"
   }
 }
