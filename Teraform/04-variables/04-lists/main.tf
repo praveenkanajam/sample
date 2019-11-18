@@ -1,6 +1,6 @@
 variable "lists" {
   type = "list"
-  default = ["apple","mango","praveen","kumar"]
+  default = ["apple","mango","praveen","kumar1"]
 }
 resource "null_resource" "name" {
   provisioner "local-exec" {
