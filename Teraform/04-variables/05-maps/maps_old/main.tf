@@ -8,6 +8,6 @@ variable "maps1" {
 }
 resource "null_resource" "map_list" {
   provisioner "local-exec" {
-    command = "echo List of Software companys are: ${var.maps1["company1"]} , ${var.maps1["company3"]} and ${var.maps1["company3"]}"
+    command = "echo List of Software companys are: ${var.maps1["company1"]} , ${var.maps1["company3"]}"
   }
 }
