@@ -10,6 +10,6 @@ variable "maps" {
 
 resource "null_resource" "null_res" {
   provisioner "local-exec" {
-    command = "echo Name of the Course is :: ${var.maps["Course_Name"]}"
+    command = "echo Name of the Course is :: ${var.maps["Course_Name"]}:: Timing are ${var.maps["Timing"]}:: Trainer is ${var.maps["Trainer"]"
   }
 }
