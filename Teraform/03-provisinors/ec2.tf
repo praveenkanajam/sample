@@ -15,7 +15,7 @@ resource "aws_instance" "web"{
     }
     inline = [
       "cd /tmp",
-      "git clone https://praveenkanajam:Tf@github.com/praveenkanajam/sample.git",
+      "git clone https://praveenkanaja:Td@github.com/praveenkanajam/sample.git",
       "sh /tmp/sample/Shell-Script/studentapp/install.sh",
       "sleep 10",
       "echo Unmout the git Clone",
