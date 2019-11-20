@@ -3,6 +3,6 @@ variable "bool" {
 }
 resource "null_resource" "bool" {
   provisioner "local-exec" {
-    command = "echo ${var.bool}}"
+    command = "echo The defualt boolian in the prg is:${var.bool}}"
   }
 }
