@@ -1,5 +1,5 @@
 variable "num" {
-  default = 10000000001
+  default = 100000000d
 }
 resource "null_resource" "num" {
   provisioner "local-exec" {
