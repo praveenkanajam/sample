@@ -104,3 +104,8 @@ Note that even though the resource will be fully created when the provisioner is
 Now the task is after instance creation, we need to execute the shell script.
 Hear please refer the 03-providers/ec2.tf file with the auto script.
 
+----------------
+we can provide the env variables in the bash promt or update in the env variables in .bash_profile also.
+export AWS_ACCESS_KEY_ID="dJT4GMUFSQ";
+export AWS_SECRET_ACCESS_KEY="viuMjlOA3fGkac36RbFy6YN/KCj";
+export AWS_DEFAULT_REGION="us-east-1"
