@@ -1,7 +1,7 @@
 variable "MPP" {
   type = "map"
   default = {
-    Fridge = "LG"
+    Fridge = "Godrej"
     Board  = "Ikea"
     Chair  = "Nilkamal"
   }
