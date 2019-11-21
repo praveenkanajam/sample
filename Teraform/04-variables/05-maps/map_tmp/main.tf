@@ -8,7 +8,7 @@ variable "MPP" {
 }
 resource "null_resource" "web" {
   provisioner "local-exec" {
-    command = "echo MY fridge company is :${var.MPP[Fridge]}."
+    command = "echo MY fridge company is :${var.MPP["Fridge"]}."
   }
 }
 
