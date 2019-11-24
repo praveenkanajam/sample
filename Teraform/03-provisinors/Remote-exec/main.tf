@@ -9,7 +9,7 @@ resource "aws_instance" "web" {
 provisioner "remote-exec" {
     connection {
     type = "ssh"
-    username = "root"
+    user = "root"
     password = "DevOps321"
     host = self.public_ip
   }
