@@ -13,8 +13,9 @@ variable "tags" {
   }
 }
 variable "volume_tags" {
-  type = "map"
+   type = "map"
   default = {
+
     Name = "Dev-Env001"
   }
 }
