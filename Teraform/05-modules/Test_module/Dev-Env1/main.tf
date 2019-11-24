@@ -4,3 +4,8 @@ module "Dev" {
   intance_type = var.instance_type
   tags = var.tags
   }
+
+resource "aws_instance" "" {
+  ami = ""
+  instance_type = ""
+}
