@@ -12,6 +12,9 @@ variable "tags" {
     date = "nov 24 2019"
   }
 }
-variable "volume_tags"  {
-  default  = "Dev-Env001"
+variable "volume_tags" {
+  type = "map"
+  default = {
+    Name = "Dev-Env001"
+  }
 }
