@@ -1,7 +1,7 @@
 resource "aws_instance" "Web" {
-  ami = "ami-02383135f96b2293e"
-  instance_type = "t2.micro"
+  ami = var.ami
+  instance_type = var.ins_type
   tags = {
-    Name = "OriVM"
+    Name = var.ins_type
   }
 }
