@@ -1,8 +1,8 @@
 module "Dev" {
-  source = "../orginal"
-  ami = var.ami
+  source = "../orginal/original.tf"
+ ami = var.ami
   ins_type = var.ins_type
   tags = {
-    Name = var.tags
+  Name = var.tags
   }
 }
