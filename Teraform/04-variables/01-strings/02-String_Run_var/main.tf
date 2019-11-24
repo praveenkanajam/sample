@@ -18,3 +18,16 @@ null_resource.rn: Creation complete after 0s [id=5059577103106956147]
 
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 */
+
+/*
+I/o:
+# terraform apply -auto-approve -var-file
+vara.txt
+null_resource.rn: Creating...
+null_resource.rn: Provisioning with 'local-exec'...
+null_resource.rn (local-exec): Executing: ["/bin/sh" "-c" "echo  hello WOrld run
+time var is Variable from test File}"]
+null_resource.rn (local-exec): hello WOrld run time var is Variable from test File}
+null_resource.rn: Creation complete after 0s [id=3800215994998946225]
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed. */
