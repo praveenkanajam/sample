@@ -7,5 +7,6 @@ variable "varweb" {
     user = "root"
     password = "DevOps321"
     tag = "remoteExec"
-}}
+}
+}
 
