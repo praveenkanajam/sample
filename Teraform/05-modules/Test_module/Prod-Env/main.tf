@@ -6,5 +6,3 @@ module "Dev" {
   tags = var.tags
 
 }
-
-
