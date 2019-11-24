@@ -1,3 +1,3 @@
-output "IPV$" {
-  value = aws_instance.test.public_ip
+output "IPV4" {
+  value = aws_instance.test.
 }
