@@ -5,7 +5,6 @@ resource "aws_instance" "web" {
   tags = {
     Name = "Remote Exec"
   }
-}
 
 provisioner "remote-exec" {
     connection {
@@ -23,6 +22,7 @@ provisioner "remote-exec" {
     "cat ip.txt",
     "curl http://checkip.amazonaws.com"
   ]
+}
 }
 output "Pub_ip" {
   value = aws_instance.web.public_ip
