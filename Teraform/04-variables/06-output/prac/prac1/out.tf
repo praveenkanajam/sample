@@ -9,6 +9,6 @@ resource "aws_instance" "web1" {
   }
 }
 
-output "wb" {
+output "Private_IP:" {
   value = aws_instance.web1.private_ip
 }
