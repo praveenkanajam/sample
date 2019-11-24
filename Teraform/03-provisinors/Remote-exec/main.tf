@@ -17,7 +17,7 @@ provisioner "remote-exec" {
   inline = [
     "echo This is Remote exec inline",
     "mkdir -p /tmp/remote",
-    "echo exit status of mkdir -p /tmp/remote : "$?"",
+    "echo exit status of mkdir -p /tmp/remote : $?",
     "echo IPV4 as below",
     "ifconfig >> ip.txt",
     "cat ip.txt",
