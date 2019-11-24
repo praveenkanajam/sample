@@ -1,1 +1,3 @@
-provider "aws" {}
+variable "aws" {}
+variable "intance_type" {}
+variable "tags" {}
