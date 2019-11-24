@@ -7,7 +7,7 @@ variable "instance_type" {
 variable "tags" {
   type = "map"
   default = {
-    Name  = Dev-Env
+    Name  = "Dev-Env"
     Version = "1.0"
     date = "nov 24 2019"
   }
