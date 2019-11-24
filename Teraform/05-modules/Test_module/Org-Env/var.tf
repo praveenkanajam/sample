@@ -1,3 +1,3 @@
-variable "aws" {}
-variable "intance_type" {}
+variable "ami" {}
+variable "instance_type" {}
 variable "tags" {}
