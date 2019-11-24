@@ -1,5 +1,5 @@
 module "Dev" {
-  source = "../orginal/original.tf"
+  source = "../orginal"
  ami = var.ami
   ins_type = var.ins_type
   tags = {
