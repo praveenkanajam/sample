@@ -1,3 +1,10 @@
+resource "aws_instance" "web" {
+  ami = var.varweb.ami
+  instance_type = var.varweb.instance_type
+  tags = {
+    Name = var.varweb.tag
+  }
+
   provisioner "remote-exec" {
     connection {
       type = "ssh"
@@ -15,3 +22,4 @@
       "curl http://checkip.amazonaws.com"
     ]
   }
+}

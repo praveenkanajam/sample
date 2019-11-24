@@ -1,5 +1,5 @@
 variable "varweb" {
-  type = "map"
+  type = "maps"
   default = {
     ami = "ami-02383135f96b2293e"
     instance_type = "t2.micro"
