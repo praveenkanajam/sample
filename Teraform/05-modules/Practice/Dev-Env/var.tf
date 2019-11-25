@@ -9,17 +9,15 @@ variable "instance_type" {
 variable "volume_tags" {
   type = "map"
   default = {
-    Name = var.tags["Name"]
+    Name = "DEV-VM"
     Unique_id = "001"
-
   }
 }
 
 variable "tags" {
   type = "map"
   default = {
-    Name = "DEV-Vm"
+    Name = "DEV-VM"
     Unique_id = "001"
-
   }
 }
